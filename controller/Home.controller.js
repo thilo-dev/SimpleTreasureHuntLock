@@ -15,7 +15,7 @@ sap.ui.define(
 				};
       },
 			back : function() {
-				window.history.back();
+				this.getOwnerComponent().getRouter().navTo("Start");
 			},
 
 			onPressed : function(oEvt) {
