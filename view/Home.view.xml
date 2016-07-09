@@ -1,5 +1,5 @@
 <mvc:View controllerName="ui5.dev.controller.Home" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m">
-	<Page id="page" title="Schatzsuche">
+	<Page id="page" title="Schatzsuche" showNavButton="true" navButtonPress="back">
 		<FlexBox direction="Column" alignItems="Start">
 			<Text class="sapUiMediumMargin" text="Hier muss die Richtige Zahl eingetragen werden um das Rätsel zu lösen"/>
 			<Text class="sapUiMediumMarginBeginEnd" text="Wenn die Zahl vollständig ist könnt ihr den Knopf unten drücken"/>

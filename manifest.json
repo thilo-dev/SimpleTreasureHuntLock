@@ -80,8 +80,13 @@
       },
 
       "routes": [
-        {
-          "pattern" : "",
+				{
+					"pattern" : "",
+					"viewName" : "Start"
+				},
+				{
+          "pattern" : "Home",
+					"name" : "Home",
           "viewName" : "Home",
           "viewId" : "home"
         },

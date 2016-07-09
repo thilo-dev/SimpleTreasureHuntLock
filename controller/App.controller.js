@@ -6,7 +6,13 @@ sap.ui.define([
         return Controller.extend('ui5.dev.controller.App', {
 
             onInit : function () {
-            }
+            },
+						start : function() {
+							this.getOwnerComponent().getRouter().navTo("Home")
+						},
+						back : function() {
+							window.history(-1)
+						}
 
         })
 

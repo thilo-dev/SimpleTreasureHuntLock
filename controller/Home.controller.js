@@ -14,6 +14,9 @@ sap.ui.define(
 					val4: "2"
 				};
       },
+			back : function() {
+				window.history.back();
+			},
 
 			onPressed : function(oEvt) {
 				var val1 = this.byId("1").getValue() === this.correctValues["val1"];
