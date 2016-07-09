@@ -25,6 +25,10 @@ sap.ui.define(
 				} else {
 					MessageBox.error("Die Zahl war Falsch! Nochmal versuchen!")
 				}
+			},
+
+			onAfterRendering : function() {
+				this.byId("page").focus();
 			}
 
     })
