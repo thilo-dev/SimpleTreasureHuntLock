@@ -1,0 +1,20 @@
+<mvc:View controllerName="ui5.dev.controller.Home" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m">
+	<Page title="Schatzsuche">
+		<FlexBox direction="Column" alignItems="Start">
+			<Text class="sapUiMediumMargin" text="Hier muss die Richtige Zahl eingetragen werden um das Rätsel zu lösen"/>
+			<Text class="sapUiMediumMarginBeginEnd" text="Wenn die Zahl vollständig ist könnt ihr den Knopf unten drücken"/>
+		</FlexBox>
+
+		<l:Grid defaultSpan="L12 M6 S3" class="sapUiSmallMargin">
+			<l:content>
+				<Input id="1" maxLength="1"/>
+				<Input id="2" maxLength="1"/>
+				<Input id="3" maxLength="1"/>
+				<Input id="4" maxLength="1"/>
+			</l:content>
+		</l:Grid>
+		<FlexBox justifyContent="Center" height="120px">
+			<Button width="200px" text="Stimmts?" press="onPressed"/>
+		</FlexBox>
+	</Page>
+</mvc:View>
