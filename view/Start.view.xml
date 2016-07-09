@@ -1,5 +1,5 @@
 <mvc:View
-        controllerName="ui5.dev.controller.App"
+        controllerName="ui5.dev.controller.Start"
         xmlns:mvc="sap.ui.core.mvc"
         displayBlock="true"
         xmlns="sap.m"

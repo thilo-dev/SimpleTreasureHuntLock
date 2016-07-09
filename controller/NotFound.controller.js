@@ -4,7 +4,7 @@ sap.ui.define(
 
   return Controller.extend("ui5.dev.controller.NotFound", {
 
-    init : function(){
+    onInit : function(){
 
     },
 
