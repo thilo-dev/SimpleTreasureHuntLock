@@ -7,7 +7,7 @@
         height="100%">
     <Page title="Willkomen zur Schatzsuche!">
 			<FlexBox direction="Column" alignItems="Center">
-				<Image class="sapUiLargeMarginTop" src="http://www.super-kindergeburtstag-feiern.com/image-files/schatzsuche-250x231.gif"/>
+				<Image width="300px" class="sapUiLargeMarginTop" src="http://www.super-kindergeburtstag-feiern.com/image-files/schatzsuche-250x231.gif"/>
 				<Button class="sapUiLargeMarginTop" text="Schatzsuche beginnnen" press="start"/>
 			</FlexBox>
 		</Page>
